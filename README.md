@@ -42,3 +42,25 @@ SRS 04:When we use ultrasonic sensors for measurements, there is still a problem
 SRS 07:For the software code part of the LCD, we have placed it in the A12G. It was tested with an analyzer to the point where the required restart signal and the hexadecimal coding of the color signal were emitted. But it was not possible to finalize the complete communication with the screen.  
 
 ## 4. Project Photos & Screenshots
+
+3D prints  
+![alt text](a71c626a48398ebfe62c68dd3ff807c.jpg)  
+The standalone PCBA, top  
+![alt text](b0290145b9e9ccb07a70e39e7df4941.jpg)  
+The standalone PCBA, bottom  
+![alt text](810484dbf68da9a987f6a64e8ed76f4.jpg)  
+Thermal camera images while the board is running under load  
+![alt text](4317828e610ba65b9bc20d6559e2246.jpg)  
+The Altium Board design in 2D view  
+![alt text](15d4e210196b0af4ec8f22fb52624a9.png)  
+The Altium Board design in 3D view  
+![alt text](image-4.png)  
+Node-RED dashboard  
+![alt text](8fbacc02e9e88e4940e3a2252b3f0d7.png)  
+![alt text](a63e87757456bf18a6f151c95600898.png)  
+Node-RED backend  
+This screenshot was taken on a local server since Azure is disabled for our group. Deployment is not possible.  
+![alt text](338625901e33e7c21728bd7e44ee140.png)  
+![alt text](ea6626ba243fdfc913145d92552c967.png)  
+Block diagram of your system  
+![alt text](image-1.png)
