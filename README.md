@@ -22,7 +22,14 @@ Our next step will be to improve the way the ultrasonic sensors work by switchin
 
 ## 3. Hardware & Software Requirements
 
-
+1.Hardware Requirements  
+Overview  
+For the overall hardware situation of the project, we 3D printed the design of the enclosure, and for each sensor and driver there is a corresponding placement. For the ultrasonic sensors we realized the distance measurement and uploaded the measurement data to our cloud host. The ultrasonic sensors are driven by two motors, we realized the selection of the motors and the adjustment of the speed of rotation of the motors, which can be scanned horizontally and vertically. For the LCD screen, our microcontroller can not realize the SPI communication with him, but we put all the completed codes and tasks into the A12G, looking forward to the next upgrade. Below is the Hardware Requirements we initially developed. we will explain the problematic parts.  
+![alt text](image-1.png)
+HRS 01: We have successfully implemented the power architecture for the initial design. The device operates as a standalone device using a 3.3V-4.2V Li-ion battery. A buck and a boost are responsible for converting the battery power to the required 3.3V and 6V outputs and delivering them to the other components used. Where we started with a 5V booster circuit, we ended up with an actual measured output of 6V, but still within the working range of the I2C Driver.  
+HRS 02:When measuring the ultrasonic sensor, our code was unable to measure the full distance information due to data overflow. We will modify the communication protocol later to use Uart.  
+HRS 03: Our PCB was not able to communicate SPI with the LCD, we used an analyzer to measure the signal and found that the desired signal was already displayed. Considering that the microcontroller itself is no longer able to accomplish this one task.  
+HRS 05: The angle of motion was not precise in our final actual measurements. After summarizing and analyzing the situation, we found that we should use an external interrupt to count the ticks accurately. At the same time, the voltage of the boost circuit is not at the initial setting of 5V, which may also be one of the reasons for the inaccurate angle.  
 
 
 ## 4. Project Photos & Screenshots
