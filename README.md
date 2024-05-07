@@ -35,6 +35,7 @@ HRS 05: The angle of motion was not precise in our final actual measurements. Af
 2.Software Requirements  
 Overview  
 Our software component allows remote control of the I2C driver. At the same time, we can upload the measured data from the ultrasonic sensor to the cloud host and display it on the Node-RED user interface. At the same time, we can download the latest tasks from the cloud host to the SD card on the PCB for OTA upgrade.  
+Details  
 ![alt text](image-3.png)  
 SRS 01:For our motor control, we chose to use an I2C Motor Driver for both motors. We have realized the speed selection and the interval selection for the control of their movements. However, it is not precise and will be upgraded later on for accuracy of control.  
 SRS 04:When we use ultrasonic sensors for measurements, there is still a problem with the triggering of external interrupts, even though we use always for timing. This resulted in many of the returned values being in an overflow state. So the gap measurement process was not accurate.  
