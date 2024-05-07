@@ -63,4 +63,4 @@ This screenshot was taken on a local server since Azure is disabled for our grou
 ![alt text](338625901e33e7c21728bd7e44ee140.png)  
 ![alt text](ea6626ba243fdfc913145d92552c967.png)  
 Block diagram of your system  
-![alt text](image-1.png)
+![alt text](image.png) 
