@@ -20,6 +20,10 @@ For the difficulties, we face many problems in both software and hardware. First
 By building and testing this prototype, we learned to use different protocols such as SPI, I2C and Uart. We have also familiarized ourselves with the use of SolidWorks. In particular, we learned the logic of the FreeRTOS architecture. If we had to build this device again, we might choose to replace the current I2C driver due to the fact that it can't be recognized well by our computer side and pass back data.  
 Our next step will be to improve the way the ultrasonic sensors work by switching to the Uart protocol for testing. At the same time, we will optimize our LCD display so that it can work and at the same time be able to perform the initially set detection tasks.
 
+Project Links  
+A12G Codebase:
+Altium 365 Link:https://upenn-eselabs.365.altium.com/designs/CEA9C49D-7C38-4536-AB0B-07D04985FC6A#design  
+
 ## 3. Hardware & Software Requirements
 
 1.Hardware Requirements  
