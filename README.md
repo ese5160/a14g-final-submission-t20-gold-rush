@@ -43,6 +43,8 @@ SRS 07:For the software code part of the LCD, we have placed it in the A12G. It 
 
 ## 4. Project Photos & Screenshots
 
+Final project  
+![alt text](12f9a6244f48c58ec52ccefa9b86e3e.jpg)
 3D prints  
 ![alt text](a71c626a48398ebfe62c68dd3ff807c.jpg)  
 The standalone PCBA, top  
