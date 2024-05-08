@@ -25,7 +25,7 @@ By building and testing this prototype, we learned to use different protocols su
 Our next step will be to improve the way the ultrasonic sensors work by switching to the Uart protocol for testing. At the same time, we will optimize our LCD display so that it can work and at the same time be able to perform the initially set detection tasks.
 
 Project Links  
-A12G Codebase:
+A12G Codebase:https://github.com/ese5160/a12g-firmware-drivers-t20-gold-rush/tree/dace1975427eadbec392a1c6075341f5dd4b0297/Final_Codebase  
 Altium 365 Link:https://upenn-eselabs.365.altium.com/designs/CEA9C49D-7C38-4536-AB0B-07D04985FC6A#design  
 
 ## 3. Hardware & Software Requirements
