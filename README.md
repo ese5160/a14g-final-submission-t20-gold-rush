@@ -4,8 +4,10 @@
     * Team Number: 20
     * Team Name: Gold Rush
     * Team Members: Shijia Jiang and Chenyu Ye
-    * Github Repository URL: 
-    * Description of test hardware: (development boards, sensors, actuators, laptop + OS, etc) 
+    * Github Repository URL: https://github.com/ese5160/a14g-final-submission-t20-gold-rush.git
+    * Description of test hardware: PCB, Ultrasonic sensors, I2C Driver, LCD Screen, Dell G3, Lenovo Y9000P
+
+
 
 ## 1. Video Presentation
   
