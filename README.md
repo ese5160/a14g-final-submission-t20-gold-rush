@@ -7,7 +7,7 @@
     * Github Repository URL: https://github.com/ese5160/a14g-final-submission-t20-gold-rush.git
     * Description of test hardware: PCB, Ultrasonic sensors, I2C Driver, LCD Screen, Dell G3, Lenovo Y9000P
 
-
+GitHub Pages Link: https://ese5160.github.io/a14g-final-submission-t20-gold-rush/
 
 ## 1. Video Presentation
   
