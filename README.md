@@ -8,6 +8,8 @@
     * Description of test hardware: (development boards, sensors, actuators, laptop + OS, etc) 
 
 ## 1. Video Presentation
+  
+https://github.com/ese5160/a14g-final-submission-t20-gold-rush/blob/4e08b700898a72a7467feca97722ca8dd32b9808/Team20_Final%20Video.mp4
 
 ## 2. Project Summary  
 
